@@ -16,7 +16,7 @@
   <scm>
     <connection>scm:git:https://github.com/avaje-pom/tile-java-compile.git</connection>
     <developerConnection>scm:git:https://github.com/avaje-pom/tile-java-compile.git</developerConnection>
-    <url>https://github.com/avaje-pom/tile-java-java.git</url>
+    <url>https://github.com/avaje-pom/tile-java-compile.git</url>
     <tag>HEAD</tag>
   </scm>
 
