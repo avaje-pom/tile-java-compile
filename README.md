@@ -1,7 +1,9 @@
-# tile-java-compile
+# java-compile maven tile
 Maven tile for java compile
 
 ## Example use
+
+In your project pom under build / plugins add the tiles-maven-plugin with the following configuration. Note that the kotlin-compile tile is there if your project also uses Kotlin (so uses both Java and Kotlin in the same project).
 
 ```xml
       <!-- In maven build / plugins -->
@@ -15,7 +17,6 @@ Maven tile for java compile
           <tiles>
             <tile>org.avaje.tile:java-compile:1.1</tile>
             <tile>org.avaje.tile:kotlin-compile:1.1</tile>
-            <tile>org.avaje.tile:ebean-enhancement:1.1</tile>
           </tiles>
         </configuration>
       </plugin>
@@ -24,7 +25,7 @@ Maven tile for java compile
 
 ## What it does
 
-Effectively the java-compile tile brings in the *maven-compiler-plugin*
+Effectively the java-compile tile brings in the *maven-compiler-plugin*.  Note that it defaults to using *Java 1.8* and you can override that in your project pom as desired.
 
 ```xml
 
