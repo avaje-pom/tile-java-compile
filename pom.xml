@@ -4,7 +4,7 @@
 
   <groupId>org.avaje.tile</groupId>
   <artifactId>java-compile</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.1</version>
   <packaging>tile</packaging>
 
   <parent>
@@ -17,7 +17,7 @@
     <connection>scm:git:https://github.com/avaje-pom/tile-java-compile.git</connection>
     <developerConnection>scm:git:https://github.com/avaje-pom/tile-java-compile.git</developerConnection>
     <url>https://github.com/avaje-pom/tile-java-compile.git</url>
-    <tag>HEAD</tag>
+    <tag>java-compile-1.1</tag>
   </scm>
 
   <build>
