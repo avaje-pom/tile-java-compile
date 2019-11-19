@@ -4,7 +4,7 @@
 
   <groupId>org.avaje.tile</groupId>
   <artifactId>java-compile</artifactId>
-  <version>9-SNAPSHOT</version>
+  <version>11-SNAPSHOT</version>
   <packaging>tile</packaging>
 
   <parent>
